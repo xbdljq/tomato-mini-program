@@ -1,0 +1,16 @@
+<!--pages/tomato/tomato.wxml-->
+<view class='container'>
+  <view class='clock'>
+    <g-clock text="{{defalutSecond}}" fontSize="56"></g-clock>
+  </view>
+  <view class='stop'>
+    <g-button size='mini' text="暂停" type='change'></g-button>
+  </view>
+  <view class='abandon'>
+    <g-button size='mini' text="放弃"></g-button>
+  </view>
+  <view class='again'>
+    <g-button size='mini' text="再来一组" type='change'></g-button>
+  </view>
+
+</view>
