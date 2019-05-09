@@ -1,13 +1,15 @@
 {
   "pages": [
-    "pages/tomato/tomato",
+    "pages/login/login",
+    "pages/me/me",
     "pages/home/home",
      "components/_button/_button",
     "components/_clock/_clock",
     "components/_confirm/_confirm",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/test/test"
+    "pages/test/test",
+    "pages/tomato/tomato"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -34,7 +36,7 @@
         "selectedIconPath": "images/total-active.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/me/me",
         "text": "我的",
         "iconPath": "images/me.png",
         "selectedIconPath": "images/me-active.png"

@@ -34,6 +34,12 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    host: 'https://gp-server.hunger-valley.com',  //照抄
+    test_host:'https://gp-server.hunger-valley.com',
+    app_id: "wxc38bb67c0a8fd0c9",
+    app_secret: "6e9859580d75e0ba67e63fd62d48f9eb",
+    t_app_id: "CnVBJQzoJDkNVkXY1piA8ooy",
+    t_app_secret: "REDfddGPyj1KtzeWP5DqFAjd"
   }
 })
