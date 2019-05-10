@@ -1,9 +1,7 @@
 // pages/me/me.js
 const { http } = require('../../libs/http.js');
+
 Page({
-  /**
-   * 页面的初始数据
-   */
   data: {
     tab: "tomato",
     tomatoes: {},
@@ -15,16 +13,19 @@ Page({
     this.fetchTodos()
     this.setData({ me: wx.getStorageSync('me') })
   },
+  //我完成的任务
   fetchTomatoes() {
     http.get('/tomatoes', { is_group: "yes" })
       .then(response => {
-        this.setData({ tomatoes: response.data.resources })
+        console.log(response)
+        this.setData({ todos: response.data.resources })
       })
   },
+  //番茄历史
   fetchTodos() {
     http.get('/todos', { is_group: "yes" })
       .then(response => {
-        this.setData({ todos: response.data.resources })
+        this.setData({ tomatoes : response.data.resources })
       })
   },
   changeTab(event) {

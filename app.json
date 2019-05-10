@@ -9,7 +9,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/test/test",
-    "pages/tomato/tomato"
+    "pages/tomato/tomato",
+    "pages/binding/binging"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -10,6 +10,7 @@ Component({
       value: false
     },
     
+    
   },
   data: {
       value:""
