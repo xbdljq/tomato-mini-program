@@ -1,4 +1,10 @@
 //app.js
+      // {
+      //   "pagePath": "pages/test/test",
+      //   "text": "数据统计",
+      //   "iconPath": "images/total.png",
+      //   "selectedIconPath": "images/total-active.png"
+      // },
 App({
   onLaunch: function () {
     // 展示本地存储能力

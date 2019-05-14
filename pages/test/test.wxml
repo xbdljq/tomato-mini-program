@@ -1,2 +1,4 @@
 <!--pages/test/test.wxml-->
-<text>pages/test/test.wxml</text>
+<view class='container'>
+<ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+</view>

@@ -1,5 +1,5 @@
 <!--pages/tomato/tomato.wxml-->
-<view class='container'>
+<view class='tomato'>
   <view class='clock'>
     <g-clock text="{{time}}" fontSize="56"></g-clock>
   </view>

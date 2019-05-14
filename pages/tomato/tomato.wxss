@@ -1,7 +1,11 @@
 /* pages/tomato/tomato.wxss */
-.cantainer {
+.container {
   background: #F0F7F6;
-  height: 100vh;
+  
+}
+.tomato{
+    background: #F0F7F6;
+    padding-bottom: 50rpx;
 }
 .clock {
   padding-top: 282rpx;
